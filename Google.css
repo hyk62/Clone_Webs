@@ -1,0 +1,209 @@
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    text-decoration: underline;
+}
+.fz14 {
+    font-size: 14px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 0;
+    font-size: 13px;
+    height: 100vh;
+}
+#header {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+}
+#header .header-right-wrap {
+    display: inline-block;
+    flex-grow: 1;
+}
+#header .header-right {
+    float: right;
+    display: flex;
+    align-items: center;
+}
+#header > *, #header .header-right > *  {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    color: #000;
+}
+.dots9-wrapper {
+    padding: 0px;
+    margin: 0px;
+    color: #c86e2e !important;
+}
+.dots9-wrap {
+    width: 24px;
+    color: #c86e2e !important;
+}
+.dots9 {
+    color: #c86e2e !important;
+    opacity: 1;
+}
+#header .login {
+    width: 48px;
+    height: 16px;
+    line-height: 16px;
+    padding: 11px 15px !important;
+    background-color: #3871E0;
+    color: #fff !important;
+    border-radius: 4px;
+    margin: 0 5px;
+    text-align: center;
+    text-decoration: none;
+}
+#header .login:hover {
+    background-color: #437BE2;
+}
+.main_wr{
+    text-align: center;
+    padding: 20px 10px;
+}
+.main_wr .logo-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.main_wr .logo-wrap .logo-img {
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+}
+.main_wr img#logo {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+.main {
+    display: block;
+    padding: 20px;
+}
+.search_bar-wrap {
+    max-height: 160px;
+}
+.search_bar-box {
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: calc(632px + 6px);
+    width: auto;
+    max-width: 584px;
+}
+.search_bar-inner {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -5px;
+}
+.search_bar-inner .input-wrap {
+    display: flex;
+    width: 82%;
+}
+.search_bar-inner input {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    height: 34px;
+    font-size: 16px;
+}
+.search_bar-inner .icons .Magnifying-Glass {
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    margin-right: 13px;
+}
+.search_bar-inner .icons .Magnifying-Glass svg {
+    fill: #9CA0A5;
+}
+.search_bar-inner .icons .keyboard {
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+}
+.search_bar-inner .icons .voice {
+    height: 24px;
+    line-height: 24px;
+    width: 24px;
+    margin: 0 8px 0 14px;
+}
+.two_search-btn {
+    text-align: center;
+    padding-top: 18px;
+}
+.two_search-btn a {
+    background-color: #F8F9FA;
+    border: solid #F8F9FA 1px;
+    padding: 12px 18px;
+    margin: 0 4px;
+    border-radius: 4px;
+}
+.two_search-btn a:hover {
+    text-decoration: none;
+    border-color: #DADCE0;
+    box-shadow: #DADCE0 0 1px 3px 0;
+}
+.blank_fl {
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+#btm{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    background-color: #F2F2F2;
+    font-size: 14px;
+}
+#btm .area {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    text-align: left;
+    color: #70757a;
+}
+#btm .others {
+    height: 46.5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#btm .others .others-wrap {
+    display: flex;
+}
+#btm .others .others-wrap a {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    color: #70757a;
+}
